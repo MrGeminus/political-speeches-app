@@ -1,0 +1,27 @@
+{
+  "name": "political-speeches",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "MrGeminus",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "papaparse": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.1",
+    "@types/papaparse": "^5.3.2",
+    "nodemon": "^2.0.18",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
